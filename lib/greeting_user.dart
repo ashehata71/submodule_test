@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
 class GreetingUser {
-  Widget greetingUser() => const Text(
+  static Widget get greetingUser => const Text(
         "Welcome back our dear!",
         style: TextStyle(
           fontSize: 20,
-          fontWeight: FontWeight.w500,
-          color: Colors.green,
+          fontWeight: FontWeight.w700,
+          color: Colors.redAccent, // Set the message color
         ),
       );
 }
