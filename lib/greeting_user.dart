@@ -5,7 +5,7 @@ class GreetingUser {
         "Welcome back our dear!",
         style: TextStyle(
           fontSize: 20,
-          fontWeight: FontWeight.w400,
+          fontWeight: FontWeight.w500,
           color: Colors.grey, // Set the message color
         ),
       );
