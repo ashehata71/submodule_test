@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-Widget greetingUser() => const Text(
+Widget get greetingUser => const Text(
       "Welcome back our dear!",
       style: TextStyle(
         fontSize: 20,
