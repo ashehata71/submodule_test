@@ -7,6 +7,7 @@ class GreetingUser {
           fontSize: 20,
           fontWeight: FontWeight.w900,
           color: Colors.grey, // Set the message color
+          letterSpacing: 10,
         ),
       );
 }
